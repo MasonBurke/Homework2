@@ -18,5 +18,16 @@
 
 .h3 {
     text-align: center;
-  
 }
+
+.d-block {
+    margin: 0 auto;
+  }
+
+  .carousel-inner {
+      background-color: #F0C68E;
+  }
+
+  body {
+      background-color: lightgray;  
+  }
