@@ -1,33 +1,62 @@
-.me {
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+
+.pic {
+    width: 30%;
+    height: 40%;
+    float: left;
 }
 
-.jumbotron {
+.info{
     text-align: center;
-    font-family: 'Cutive Mono', monospace;
-
 }
-
-.p1 {
+.name{
+    font-family: 'Comfortaa', cursive;
+}
+.p2{
+    font-size: larger;
+}
+.p3 {
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
 }
 
+
+.wrapper{
+    margin-top: 14%;
+}
 .h3 {
     text-align: center;
 }
-
-.d-block {
-    margin: 0 auto;
-  }
-
-  .carousel-inner {
-      background-color: #F0C68E;
-  }
-
+.socials{
+    
+}
+.proj1{
+ 
+}
   body {
       background-color: lightgray;  
   }
+
+  @media  (min-width: 639px ){
+    .wrapper{
+        margin-top:20%;
+    }
+    .p2{
+        font-size: large;
+    }
+}
+@media  (min-width: 842px ){
+    .wrapper{
+        margin-top:30%;
+    }
+   .p2{
+       font-size:x-large;
+   }
+}
+@media  (max-width: 375px ){
+    .wrapper{
+        margin-top:5%;
+    }
+    .p2{
+        font-size: small;
+    }
